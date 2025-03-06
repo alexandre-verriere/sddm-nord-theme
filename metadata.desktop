@@ -1,11 +1,11 @@
 [SddmGreeterTheme]
-Name=Eucalyptus Drop
+Name=Sddm Nord
 Description=Theme for SDDM
 Author=Matt Jolly
 Copyright=Copyright (C) 2022 Matt Jolly
 License=GPL-3.0-or-later
 Type=sddm-theme
-Version=2.0.0
+Version=1.0.0
 Website=https://gitlab.com/Matt.Jolly/sddm-eucalyptus-drop
 Screenshot=Previews/PartialBlur.png
 MainScript=Main.qml

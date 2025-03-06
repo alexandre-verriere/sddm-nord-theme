@@ -1,37 +1,6 @@
 # Readme
 
-Eucalyptus Drop is an enhanced fork of SDDM Sugar Candy by Marian Arlt.
-
-This theme focuses on a straightforward user experience and superb functionality while offering a great degree of customisation.
-
-![Out-of-the-box configuration](Previews/sddm-eucalyptus-drop.png)
-
-Eucalyptus Drop should work on any SDDM installation / Linux distribution, provided dependencies are met.
-
-## Installation
-
-### From within KDE Plasma
-
-If you are on [KDE Plasma](https://www.kde.org/plasma-desktop)—by default [Manjaro](https://manjaro.org/), [OpenSuse](https://www.opensuse.org/), [Neon](https://neon.kde.org/), [Kubuntu](https://kubuntu.org/), [KaOS](https://kaosx.us/) or [Chakra](https://www.chakralinux.org/) for example—you are lucky and can simply go to your system settings and under "Startup and Shutdown" **→** "Login Screen (SDDM)" click "Get New Theme". From there search for "Eucalyptus Drop" and install.
-
-If for some reason you cannot find the category named "Login Screen (SDDM)" in your system settings then you are missing the module `sddm-kcm`. Install this with your package manager first.
-
-### From other desktop environments
-
-Download the latest release zip and extract the contents to the theme directory of SDDM:
-
-`$ sddmthemeinstaller --install sddm-eucalyptus-drop-v2.0.0.zip`
-
-This will extract all the files to a folder called "eucalyptus-drop" inside of the themes directory of SDDM.
-
-After that you will have to point SDDM to the new theme by editing its config file, preferrably at `/etc/sddm.conf.d/sddm.conf` *(create if necessary)*. You can take the default config file of SDDM as a reference which might be found at: `/usr/lib/sddm/sddm.conf.d/sddm.conf`.
-
-In the `[Theme]` section simply add the themes name to this line: `Current=eucalyptus-drop`. If you don't care for SDDM options and you had to create the file from scratch, just add those two lines and save it:
-
-```conf
-[Theme]
-Current=eucalyptus-drop
-```
+Nord version of Eucalyptus Drop
 
 ## Dependencies
 
